@@ -1,0 +1,5 @@
+{
+  "name": "AI-Priced Media Service Calculator",
+  "description": "A pricing calculator for AI-generated photo and video services. It allows users to select different AI models, service types, and add-ons to get a live, detailed price quote.",
+  "requestFramePermissions": []
+}
