@@ -9,7 +9,6 @@ interface ServiceSelectorProps {
 const ServiceCard: React.FC<{
   title: string;
   description: string;
-  // Fix: Changed JSX.Element to React.ReactElement to resolve "Cannot find namespace 'JSX'" error.
   icon: React.ReactElement;
   onClick: () => void;
 }> = ({ title, description, icon, onClick }) => (
