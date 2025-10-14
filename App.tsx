@@ -1,12 +1,12 @@
 
 import React, { useState, useMemo, useCallback } from 'react';
-import { PhotoState, VideoState, ServiceType, AppState, Quote } from './types';
-import { PRICING_DATA } from './constants';
-import ServiceSelector from './components/ServiceSelector';
-import PhotoForm from './components/PhotoForm';
-import VideoForm from './components/VideoForm';
-import QuoteDisplay from './components/QuoteDisplay';
-import CommonOptions from './components/CommonOptions';
+import { PhotoState, VideoState, ServiceType, AppState, Quote } from './types.ts';
+import { PRICING_DATA } from './constants.ts';
+import ServiceSelector from './components/ServiceSelector.tsx';
+import PhotoForm from './components/PhotoForm.tsx';
+import VideoForm from './components/VideoForm.tsx';
+import QuoteDisplay from './components/QuoteDisplay.tsx';
+import CommonOptions from './components/CommonOptions.tsx';
 
 const App: React.FC = () => {
   const [state, setState] = useState<AppState>({

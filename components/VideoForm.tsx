@@ -1,9 +1,9 @@
 
 import React from 'react';
-import type { VideoState, VideoModel, VideoQuality } from '../types';
-import { PRICING_DATA } from '../constants';
-import CustomSelect from './CustomSelect';
-import CustomCheckbox from './CustomCheckbox';
+import type { VideoState, VideoModel, VideoQuality } from '../types.ts';
+import { PRICING_DATA } from '../constants.ts';
+import CustomSelect from './CustomSelect.tsx';
+import CustomCheckbox from './CustomCheckbox.tsx';
 
 interface VideoFormProps {
   state: VideoState;

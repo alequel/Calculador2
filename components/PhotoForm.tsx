@@ -1,8 +1,8 @@
 
 import React from 'react';
-import type { PhotoState, PhotoModel } from '../types';
-import { PRICING_DATA } from '../constants';
-import CustomSelect from './CustomSelect';
+import type { PhotoState, PhotoModel } from '../types.ts';
+import { PRICING_DATA } from '../constants.ts';
+import CustomSelect from './CustomSelect.tsx';
 
 interface PhotoFormProps {
   state: PhotoState;

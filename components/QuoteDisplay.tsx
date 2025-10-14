@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Quote } from '../types';
+import type { Quote } from '../types.ts';
 
 interface QuoteDisplayProps {
   quote: Quote | null;

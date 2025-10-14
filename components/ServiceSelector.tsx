@@ -1,5 +1,6 @@
+
 import React from 'react';
-import type { ServiceType } from '../types';
+import type { ServiceType } from '../types.ts';
 
 interface ServiceSelectorProps {
   onSelect: (type: ServiceType) => void;
